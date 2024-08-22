@@ -7,7 +7,7 @@ class Problem2{
             arr[i] = scanner.nextInt();
         }
         int count = 0;
-        int sum = 0;
+        int sum = 0; // current position of ant be 0
         for (int i = 1; i <= arr.length; i++){
             sum += arr[i-1];
             if (sum == 0) count++;
