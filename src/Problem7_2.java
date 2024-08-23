@@ -3,7 +3,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Main {
+public class Problem7_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Character[] vowels = {'a', 'e', 'i', 'o', 'u'};
