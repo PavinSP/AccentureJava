@@ -1,0 +1,69 @@
+Problem Statement:
+You are the head of the election committee in your village.
+Each Political party is associated with a unique number and the votes are represented as an integer array A,
+where each element contains the party number voted for by the villagers.
+For a party to win, they must have a majority of votes.
+Our task is to find and return an integer value denoting the winning party's number.
+Return -1 if there is no party with a majority.
+
+Note:
+If only one vote is there he is the winner.
+
+Input Format :
+input1:
+An integer value representing the number the number of voters
+
+input2:
+An integer array A representing the votes of the voters.
+
+Output Format:
+Return an integer value denoting the winning party's number.
+Return -1 there is no party with a majority
+
+Example 1:
+Input:
+6
+1 1 2 2 2 3
+
+Output:
+2
+
+Explanation:
+As 2 got the most number of votes i.e 3.
+
+Example 2:
+Input:
+6
+1 2 1 1 2 2
+Output:
+-1
+
+Explanation:
+As both the contestants got same votes there is no majority.
+
+Testcases:
+
+Case 1:
+6
+1 1 2 2 2 3
+2
+
+Case 2:
+6
+1 2 1 1 2 2
+-1
+
+Case 3:
+5
+4 4 4 2 1
+4
+
+Case 4:
+7
+1 1 2 2 3 3 3
+3
+
+Case 5:
+8
+3 3 3 3 1 1 2 2
+3
