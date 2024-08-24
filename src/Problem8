@@ -1,0 +1,65 @@
+Problem Statement:
+Prime factors of a positive integer are the prime numbers that divide that integer exactly.
+Given an array arr of n integers and a positive integer num.
+Let's suppose prime factorization of num is: pa x qb x rc x .... x zf ,where p,q,r...z are prime numbers.
+Sum of numbers in array arr at indices of prime factors of number num is: a x arr[p] + b x arr[q] + c x arr[r] +...... + f x arr[z].
+You are given an array arr of size n and a positive integer num.
+You are required to calculate the sum of numbers in arr as mentioned above, and print the same.
+
+Note:
+If arr is empty, print -1.
+If prime factor of num not found as indices, print 0.
+
+Input Format:
+The input consists of three lines:
+
+The first line contains an integer, i.e. n.
+The second line contains an array arr of length of n.
+The third line contains an integer num.
+The input will be read from the STDIN by the candidates.
+
+Output Format:
+Print the sum that was mentioned in the problem statement.
+
+Example:
+Input:
+6
+11 21 32 45 1 23
+6
+Output:
+77
+Explanation:
+6 = 2^1 x 3^1
+sum = 1*arr[2] + 1*arr[3] = 1*32 + 1*45 = 77
+
+Testcases:
+
+Case 1:
+6
+11 21 32 45 1 23
+6
+77
+
+Case 2:
+6
+11 21 32 45 1 23
+9
+90
+
+Case 3:
+6
+11 21 32 45 1 23
+21
+0
+
+Case 4:
+0
+
+30
+-1
+
+Case 5:
+8
+3 5 7 11 13 17 19 23
+84
+48
