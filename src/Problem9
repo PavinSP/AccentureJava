@@ -1,0 +1,39 @@
+Problem Statement:
+You have been given the task of making the content on a social media platform more user-friendly.
+Your task is to find and return an integer value representing the count of the number of spaces in a given string S.
+
+Input:
+A string S
+
+Output :
+Return an integer value representing the count of the number of spaces in a given string S.
+
+Example:
+
+Input:
+Hello World Hey
+
+Output:
+2
+
+TestCases:
+
+Case 1:
+Hello World Hey
+2
+
+Case 2:
+Hi Hello
+1
+
+Case 3:
+H d f g a sd fr
+6
+
+Case 4:
+q w e r t y u i o
+8
+
+Case 5:
+a s d f g h j k l z x c v b n m
+15
