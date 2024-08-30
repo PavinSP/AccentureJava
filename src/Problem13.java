@@ -5,15 +5,15 @@ public class Problem13 {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
         HashMap<Character, Integer> map = new HashMap<>();
+        int max_freq = 0;
         for (int i = 0; i < str.length(); i++){
-            map.put(str.charAt(i), map.getOrDefault(str.charAt(i), 0) + 1);
-        }
-        int max = 0;
-        for (Character c : map.keySet()){
-            if (map.get(c) > 0){
-                max = map.get(c);
+            char current_char = str.charAt(i);
+            int freq = map.getOrDefault(current_char, 0) + 1;
+            map.put(current_char, freq);
+            if (freq > max_freq){
+                max_freq = freq;
             }
         }
-        System.out.println(str.length() - max);
+        System.out.println(str.length() - max_freq);
     }
 }
