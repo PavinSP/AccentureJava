@@ -1,0 +1,48 @@
+Problem Statement:
+Given two numbers a and b.
+Find the GCD and LCM of and b.
+
+Input:
+Two positive integers a and b (1 <=a, b <=1000)
+
+Output:
+For GCD function, an integer representing the GCD of a and b
+For LCM function, an integer representing the LCM of a and b
+
+Sample Input:
+12 18
+
+Output:
+6
+36
+
+Explanation:
+The GCD of 12 and 18 is 6.
+The LCM of 12 and 18 is 36.
+
+Testcases:
+
+Case 1:
+12 18
+6
+36
+
+Case 2:
+100 80
+20
+400
+
+Case 3:
+25 30
+5
+150
+
+Case 4:
+7 13
+1
+91
+
+Case 5:
+21 6
+3
+42
