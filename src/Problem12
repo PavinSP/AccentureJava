@@ -1,0 +1,38 @@
+Problem Statement:
+Alice has a mathematics test for which she is under prepared.
+She has to do at least one question correctly to pass the test.
+She decides to do a question which needs her to find the smallest prime number which is larger than a given integer N.
+Your task is to find and return an integer value representing the smallest prime number larger than N.
+
+Input Format:
+input1: An integer value N
+
+Output Format:
+Return an integer value representing the smallest prime number larger than N.
+
+Sample Input
+6
+Sample Output
+7
+
+Testcases:
+
+Case 1:
+6
+7
+
+Case 2:
+24
+29
+
+Case 3:
+101
+103
+
+Case 4:
+120
+127
+
+Case 5:
+234
+239
