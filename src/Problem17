@@ -1,0 +1,33 @@
+Problem Statement:
+Pangram is a sentence containing every letter in the English alphabet.
+Given a string, find all characters that are missing from the string, ie.,
+the characters that can make the string a Pangram
+We need to print output in alphabetic order.
+
+For example,
+Input:
+welcome to geeksforgeeks
+Output:
+abdhijnpquvxyz
+
+Testcases:
+
+Case 1:
+welcome to geeksforgeeks
+abdhijnpquvxyz
+
+Case 2:
+the quick brown fox jumps over the lazy dog
+
+
+Case 3:
+hello world
+abcfgijkmnpqstuvxyz
+
+Case 4:
+abcdefg hijklmnop qrstuvw
+xyz
+
+Case 5:
+pack my box with five dozen liquor
+gjs
