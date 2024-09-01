@@ -1,0 +1,46 @@
+Problem Statement:
+You are given a list of integers, and your task is to find the sub array with the maximum sum.
+Write a function or method to solve this problem efficiently and return the maximum sum.
+
+Input:
+n: the no of elements in the array
+nums (List of integers): A list of integers
+(1 <= len(nums) <= 10^5)
+
+Sample input:
+8
+-1 2 3 10 -4 7 2 -5
+
+Sample output:
+20
+
+Explanation:
+The max subarry sum is 20.
+The subarray is [2,3,10,-4,7,2]
+
+Testcases:
+
+Case 1:
+5
+1 2 3 4 5
+15
+
+Case 2:
+5
+-1 -2 -3 -4 -5
+-1
+
+Case 3:
+8
+-1 2 3 10 -4 7 2 -5
+20
+
+Case 4:
+4
+4 -1 2 1
+6
+
+Case 5:
+8
+-2 -3 4 -1 -2 1 5 -3
+7
