@@ -1,0 +1,45 @@
+Problem Statement:
+You are provided with a number N.
+Count and print the number of integers x that follow the following
+
+Conditions:
+1<=x<=Nx have odd number of digits.
+
+Input Format:
+The input consists of a single line:• The line contains a single integer denoting N.
+Input will be read from the STDIN by the candidate
+
+Output Format:
+Print the count of integers fulfilling the given conditions.
+The output will be matched to the candidate's output printed on the STDOUT
+
+Constraints:
+1<=N<=1000000
+
+Sample Input:
+10
+
+Sample Output:
+9
+
+Testcases:
+
+Case 1:
+8
+8
+
+Case 2:
+10
+9
+
+Case 3:
+909
+819
+
+Case 4:
+1000
+909
+
+Case 5:
+1000000
+90910

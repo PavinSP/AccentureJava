@@ -1,0 +1,54 @@
+Problem Statement:
+Write a program to identify whether the given number N is palindrome based upon the following operations:
+Add the given number and its reverse.
+Check whether the obtained sum after the first operation is a palindrome or not and if not then repeat the above operation.
+The given operation will continue until a palindromic number is found.
+Print the resultant palindromic number as the output.
+
+Note:
+Palindrome: A sequence of letters/characters which reads the same backward and forwards.
+A single letter/character is also considered a palindrome.
+
+Input Format:
+The input consists of a single line:
+The line contains a single integer denoting N.
+The input will be read from the STDIN by the candidate
+
+Output Format:
+Print the resultant palindromic number for the given input.
+The output will be matched to the candidate's output
+
+Sample Input:
+28
+
+Sample Output:
+121
+
+Explanation:
+Reverse of 28 is 82
+28+82=110
+Reverse of 110 is 011
+110+11=121
+So 121 is a palindrome.
+
+Testcases:
+
+Case 1:
+28
+121
+
+Case 2:
+195
+9339
+
+Case 3:
+123
+444
+
+Case 4:
+89
+8813200023188
+
+Case 5:
+9998
+8836388

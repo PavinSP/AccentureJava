@@ -1,0 +1,63 @@
+Problem Statement:
+Rotate a string one step means each word of that string is shifted by one position left and the leftmost word will go to the rightmost position.
+You are given a string str and an integer k.
+You are required to rotate the string str as mentioned above,
+by k steps and print the rotated string.
+
+Note:
+If str is empty, print NULL.
+If k is 0, print the original string.
+
+Assumption:
+Words in string str are separated by a single space.
+
+Input Format:
+The input consists of the 3 lines:
+The first line contains an integer, i.e. string length of str
+The second line contains the string, i.e. str.
+The third line contains an integer i.e. the number of steps.
+The input will be read from the STDIN by the candidate
+
+Output Format:
+The output consists of the rotated string in a single line.
+The output will be matched to the candidate's output printed on the STDOUT
+
+Sample Input:
+16
+helloworldpython
+5
+
+Sample Output:
+worldpythonhello
+
+Testcases:
+
+Case 1:
+6
+helloworldpython
+5
+worldpythonhello
+
+Case 2:
+5
+abcde
+7
+cdeab
+
+Case 3:
+5
+abcde
+0
+abcde
+
+Case 4:
+0
+
+3
+NULL
+
+Case 5:
+14
+ilovecodingfun
+13
+nilovecodingfu
