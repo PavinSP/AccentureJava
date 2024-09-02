@@ -4,13 +4,13 @@ public class Problem22 {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int[] arr = new int[n];
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < arr.length; i++){
             arr[i] = scanner.nextInt();
         }
-        int ans = 0;
         int pos = 0;
-        for (int i = 0; i < n; i++) {
-            pos += arr[i];
+        int ans = 0;
+        for (int i : arr) {
+            pos += i;
             ans = Math.max(ans, Math.abs(pos));
         }
         System.out.println(ans);
