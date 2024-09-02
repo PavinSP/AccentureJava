@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Problem1 {
+public class Problem01 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt(); // no of elements in an array (no of shots made)

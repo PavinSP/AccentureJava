@@ -3,7 +3,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Problem6_2{
+public class Problem06_3 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
@@ -13,12 +13,7 @@ public class Problem6_2{
         }
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int nums : arr){
-            if (map.containsKey(nums)){
-                map.put(nums, map.get(nums) + 1);
-            }
-            else{
-                map.put(nums, 1);
-            }
+            map.put(nums, map.getOrDefault(nums, 0) + 1);
         }
         Set<Map.Entry<Integer, Integer>> values = map.entrySet();
         int max = 0;
