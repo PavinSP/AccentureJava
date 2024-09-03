@@ -6,17 +6,17 @@ public class Problem25 {
         int p = scanner.nextInt() - 1;
         int k = scanner.nextInt();
         char result = 0;
-        if (str.isEmpty()){
-            System.out.println();
-        }
-        else{
-            while (k > 0){
+        while (k > 0){
+            if (str.isEmpty()){
+                System.out.println();
+            }
+            else{
                 if (p > 0 && p < str.length() - 1){
-                    if (str.charAt(p - 1) < str.charAt(p + 1)) {
-                        result = str.charAt(p - 1);
+                    if (str.charAt(p - 1) < str.charAt(p + 1)){
+                        result = str.charAt(p -1);
                         p--;
                     }
-                    else {
+                    else{
                         result = str.charAt(p + 1);
                         p++;
                     }
